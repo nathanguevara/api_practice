@@ -10,9 +10,9 @@ class Connection {
       console.log("creating connection pool...");
       this.pool = mysql.createPool({
         connectionLimit: 100,
-        host: aca-database-1.cfvrqhketoiw.us-east-2.rds.amazonaws.com,
-        user: admin,
-        password: Bluebonnet77!,
+        host: HOST,
+        user: USERNAME,
+        password: PASSWORD,
         database: "ondeck",
       });
 
